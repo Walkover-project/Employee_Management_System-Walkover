@@ -15,7 +15,7 @@ $sql = "INSERT INTO `employee_leave`(`id`,`token`, `start`, `end`, `reason`, `st
 
 $result = mysqli_query($conn, $sql);
 
-//redirecting to the display page (index.php in our case)
+//redirecting to the display page 
 header("Location:..//eloginwel.php?id=$id");
 ?>
 
