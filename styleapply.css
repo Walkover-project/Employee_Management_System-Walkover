@@ -381,29 +381,24 @@ input {
 }
 
 .input--style-1::-webkit-input-placeholder {
-  /* WebKit, Blink, Edge */
   color: #555;
 }
 
 .input--style-1:-moz-placeholder {
-  /* Mozilla Firefox 4 to 18 */
   color: #555;
   opacity: 1;
 }
 
 .input--style-1::-moz-placeholder {
-  /* Mozilla Firefox 19+ */
   color: #555;
   opacity: 1;
 }
 
 .input--style-1:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
   color: #555;
 }
 
 .input--style-1:-ms-input-placeholder {
-  /* Microsoft Edge */
   color: #555;
 }
 
@@ -556,17 +551,3 @@ th {
 	outline: 0px;
 	background-color: #0c6996;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
