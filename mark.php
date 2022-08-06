@@ -74,7 +74,7 @@ if(isset($_POST['update']))
 
 <html>
 <head>
-  <title>Project Mark | Employee Management System</title>
+  <title>Project Mark: Walkover Project</title>
   <!-- Icons font CSS-->
     <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
     <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
@@ -91,7 +91,7 @@ if(isset($_POST['update']))
 <body>
   <header>
     <nav>
-      <h1>EMS</h1>
+      <h1>Walkover Project</h1>
       <ul id="navli">
         <li><a class="homeblack" href="aloginwel.php">HOME</a></li>
         <li><a class="homeblack" href="addemp.php">Add Employee</a></li>
@@ -108,7 +108,7 @@ if(isset($_POST['update']))
   <div class="divider"></div>
   
 
-    <!-- <form id = "registration" action="edit.php" method="POST"> -->
+  
   <div class="page-wrapper bg-blue p-t-100 p-b-100 font-robo">
         <div class="wrapper wrapper--w680">
             <div class="card card-1">
