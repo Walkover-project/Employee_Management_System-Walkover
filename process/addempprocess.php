@@ -43,7 +43,6 @@ if(($result) == 1){
     window.alert('Succesfully Registered')
     window.location.href='..//viewemp.php';
     </SCRIPT>");
-    //header("Location: ..//aloginwel.php");
 }
 
 else{
@@ -73,16 +72,10 @@ if(($result) == 1){
     window.alert('Succesfully Registered')
     window.location.href='..//viewemp.php';
     </SCRIPT>");
-    //header("Location: ..//aloginwel.php");
 }
 
-// else{
-//     echo ("<SCRIPT LANGUAGE='JavaScript'>
-//     window.alert('Failed to Registere')
-//     window.location.href='javascript:history.go(-1)';
-//     </SCRIPT>");
-// }
 }
+
 
 
 
