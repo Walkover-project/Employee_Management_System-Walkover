@@ -19,13 +19,7 @@ if(isset($_POST['update']))
 	$nid = mysqli_real_escape_string($conn, $_POST['nid']);
 	$dept = mysqli_real_escape_string($conn, $_POST['dept']);
 	$degree = mysqli_real_escape_string($conn, $_POST['degree']);
-	//$salary = mysqli_real_escape_string($conn, $_POST['salary']);
-
-
-
-
-
-	// $result = mysqli_query($conn, "UPDATE `employee` SET `firstName`='$firstname',`lastName`='$lastname',`email`='$email',`password`='$email',`gender`='$gender',`contact`='$contact',`nid`='$nid',`salary`='$salary',`address`='$address',`dept`='$dept',`degree`='$degree' WHERE id=$id");
+	
 
 
 $result = mysqli_query($conn, "UPDATE `employee` SET `firstName`='$firstname',`lastName`='$lastname',`email`='$email',`birthday`='$birthday',`gender`='$gender',`contact`='$contact',`nid`='$nid',`address`='$address',`dept`='$dept',`degree`='$degree' WHERE id=$id");
@@ -66,7 +60,7 @@ $result = mysqli_query($conn, "UPDATE `employee` SET `firstName`='$firstname',`l
 
 <html>
 <head>
-	<title>View Employee |  Admin Panel | Employee Management System</title>
+	<title>View Employee: Admin Panel: Walkover Project</title>
 	<!-- Icons font CSS-->
     <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
     <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
@@ -83,7 +77,7 @@ $result = mysqli_query($conn, "UPDATE `employee` SET `firstName`='$firstname',`l
 <body>
 	<header>
 		<nav>
-			<h1>EMS</h1>
+			<h1>Walkover Project</h1>
 			<ul id="navli">
 				<li><a class="homeblack" href="index.html">HOME</a></li>
 				<li><a class="homeblack" href="addemp.php">Add Employee</a></li>
@@ -171,14 +165,6 @@ $result = mysqli_query($conn, "UPDATE `employee` SET `firstName`='$firstname',`l
     </div>
 
 
-     <!-- Jquery JS-->
-    <!-- <script src="vendor/jquery/jquery.min.js"></script>
-   
-    <script src="vendor/select2/select2.min.js"></script>
-    <script src="vendor/datepicker/moment.min.js"></script>
-    <script src="vendor/datepicker/daterangepicker.js"></script>
 
-   
-    <script src="js/global.js"></script> -->
 </body>
 </html>
