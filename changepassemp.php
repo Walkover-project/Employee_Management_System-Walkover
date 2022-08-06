@@ -52,7 +52,7 @@ if(isset($_POST['update']))
 
 <html>
 <head>
-  <title>Change Password | Employee Management System</title>
+  <title>Change Password: Walkover Project</title>
   <!-- Icons font CSS-->
     <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
     <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
@@ -69,7 +69,7 @@ if(isset($_POST['update']))
 <body>
   <header>
     <nav>
-      <h1>Employee Management System</h1>
+      <h1>Walkover Project</h1>
       <ul id="navli">
         <li><a class="homeblack" href="eloginwel.php?id=<?php echo $id?>"">HOME</a></li>
         <li><a class="homered" href="myprofile.php?id=<?php echo $id?>"">My Profile</a></li>
